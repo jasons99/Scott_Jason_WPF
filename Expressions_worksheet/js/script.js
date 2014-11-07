@@ -36,3 +36,4 @@ alert(" Each person will get "+slicesPerPerson+" slices of pizza.");
 
 console.log (slicesPerPerson)
 
+
