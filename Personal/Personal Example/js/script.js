@@ -14,3 +14,7 @@ console.log (tanksPerMonth);
 //12 months in a year
 var totalMonths = 12;
 
+console.log (totalMonths)
+//Total tanks used per year
+var totalTanksPerYear = tanksPerMonth * totalMonths
+
