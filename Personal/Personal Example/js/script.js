@@ -18,3 +18,7 @@ console.log (totalMonths)
 //Total tanks used per year
 var totalTanksPerYear = tanksPerMonth * totalMonths
 
+
+alert(" You will fill up "+totalTanksPerYear+" times every year.");
+
+console.log (totalTanksPerYear)
