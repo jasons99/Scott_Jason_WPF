@@ -15,4 +15,7 @@ var firstShow = prompt ("How much money in tips did you get from your first show
 
 console.log (firstShow);
 
+var secondShow = prompt ("How much in tips did you get from your second show?");
+
+console.log (secondShow)
 
