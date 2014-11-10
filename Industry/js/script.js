@@ -20,3 +20,12 @@ var weekThree = prompt ("How many tickets were submitted the third week of this 
 
 console.log (weekThree)
 
+var finalWeek = prompt ("How many tickets were submitted the final week of this month?");
+
+console.log (finalWeek)
+
+var totalOrders =  (+weekOne) + (+weekTwo) + (+weekThree) + (+finalWeek);
+
+alert(" There were "+totalOrders+" trouble tickets submitted this month.");
+
+console.log (totalOrders);
