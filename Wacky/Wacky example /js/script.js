@@ -24,3 +24,11 @@ var thirdShow = prompt ("How much from your third show?");
 console.log (thirdShow)
 
 
+var fourthShow = prompt ("What about the fourth show?");
+
+console.log (fourthShow)
+
+var fifthShow = prompt ("How much from the fifth show?");
+
+console.log (fifthShow)
+
