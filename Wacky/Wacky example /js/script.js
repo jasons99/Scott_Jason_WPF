@@ -10,3 +10,9 @@ alert("Expression Assignment")
 //Wacky example
 //Calculate how much you made in tips this month from playing live gigs.
 
+alert ("Let's see how much money you made this month in tips from playing live music shows!");
+var firstShow = prompt ("How much money in tips did you get from your first show?");
+
+console.log (firstShow);
+
+
