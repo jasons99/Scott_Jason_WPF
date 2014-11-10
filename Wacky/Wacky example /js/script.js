@@ -32,3 +32,12 @@ var fifthShow = prompt ("How much from the fifth show?");
 
 console.log (fifthShow)
 
+var sixthShow = prompt ("And finally how much from your last show?");
+
+console.log (sixthShow)
+
+var totalTips =  (+firstShow) + (+secondShow) + (+thirdShow) + (+fourthShow) + (+fifthShow) + (+sixthShow);
+
+alert(" Congratulations! You made "+totalTips+" dollars just in tips this month!!! Rock & Roll!");
+
+console.log (totalTips);
