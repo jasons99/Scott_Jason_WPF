@@ -4,4 +4,6 @@
 alert("Expression Assignment")
 //Jason Scott Expression Assignment WPF
 
+//Industry example
+//Calculate how many trouble tickets for tech issues were submitted this month.
 
