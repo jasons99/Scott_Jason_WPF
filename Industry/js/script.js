@@ -7,3 +7,8 @@ alert("Expression Assignment")
 //Industry example
 //Calculate how many trouble tickets for tech issues were submitted this month.
 
+alert ("Let's calculate how many trouble tickets for tech issues were submitted this month.");
+var weekOne = prompt ("How many trouble tickets were submitted the first week of this month?");
+
+console.log (weekOne);
+
