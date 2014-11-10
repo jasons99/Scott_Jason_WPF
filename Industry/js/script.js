@@ -12,3 +12,6 @@ var weekOne = prompt ("How many trouble tickets were submitted the first week of
 
 console.log (weekOne);
 
+var weekTwo = prompt ("How many tickets were submitted the second week of this month?");
+
+console.log (weekTwo)
