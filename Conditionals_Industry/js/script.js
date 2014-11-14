@@ -25,4 +25,17 @@ if (lastCheck === "no"){
         version = prompt("Please type the version they are currently running")
     }
 }
+else
+    alert("Ok great. If you have updated them in the last six months then they have the latest version available.");
 
+
+var newestVersion = 3.1
+
+if (version >=newestVersion){
+    alert("Ok good. Looks like they are on version 3.1 They have the most recent update.");
+    console.log(version);
+
+}
+else
+    alert("Ok. It looks like that is an old version. Please install version 3.1 on the users system.");
+console.log("Update users software. ");
