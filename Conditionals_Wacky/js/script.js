@@ -19,5 +19,8 @@ if (jasonsTruck === ""){
 
 
 }
-
-
+if (jasonsTruck <totalPeople){
+    alert("Sorry we need to take another vehicle. There are five of you total.");
+    console.log(jasonsTruck)
+    console.log("We need a different vehicle.")
+  
