@@ -31,4 +31,6 @@ if (jasonsTruck <totalPeople){
     if (carlsCar >=totalPeople){
         alert("Great! Looks like we are gonna pile into Carl's car and go to the show!")
         console.log("Enjoy the show!")
-    }
+    }else
+        alert("Looks like we need to take separate cars this weekend.")
+    console.log("We need to split up in different cars.")
