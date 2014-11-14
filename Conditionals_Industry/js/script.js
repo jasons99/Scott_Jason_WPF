@@ -15,3 +15,14 @@ var lastCheck = prompt("Have you checked for an update in the last six months?")
 
 if (lastCheck === ""){
     lastCheck = prompt("Please type yes or no if you checked the software versions.");
+}
+
+if (lastCheck === "no"){
+    alert("Ok. It looks like the software may be out of tolerance. We need check your users software versions.");
+    console.log(lastCheck)
+    var version = prompt("What version are they currently running?");
+    if (version === ""){
+        version = prompt("Please type the version they are currently running")
+    }
+}
+
