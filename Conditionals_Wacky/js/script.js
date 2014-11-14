@@ -28,4 +28,7 @@ if (jasonsTruck <totalPeople){
     if (carlsCar === ""){
         carlsCar = prompt("Please type How many people he can have ride in his car.");
     }
-  
+    if (carlsCar >=totalPeople){
+        alert("Great! Looks like we are gonna pile into Carl's car and go to the show!")
+        console.log("Enjoy the show!")
+    }
