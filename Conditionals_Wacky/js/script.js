@@ -23,4 +23,9 @@ if (jasonsTruck <totalPeople){
     alert("Sorry we need to take another vehicle. There are five of you total.");
     console.log(jasonsTruck)
     console.log("We need a different vehicle.")
+
+    var carlsCar = prompt("What about Carl's car? How many can he fit?");
+    if (carlsCar === ""){
+        carlsCar = prompt("Please type How many people he can have ride in his car.");
+    }
   
