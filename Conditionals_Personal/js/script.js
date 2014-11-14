@@ -12,9 +12,10 @@ alert("Let's see if you can go to the Bruce Springsteen concert next weekend!");
 
 var work = prompt("Do you have to work next weekend?");
 
-if (work = ""){
-    prompt("Do you have to work?");
+if (work === ""){
+    work = prompt("Do you have to work? Please type yes or no.");
 }
+
 if (work === "no"){
     alert("Great! Looks like you're free to go to the show! But wait. First we have to see if you can afford to go.");
     console.log(work)
