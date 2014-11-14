@@ -20,7 +20,9 @@ if (work === "no"){
     alert("Great! Looks like you're free to go to the show! But wait. First we have to see if you can afford to go.");
     console.log(work)
     var myMoney = prompt("How much cash do you have?");
-
+if (myMoney === ""){
+    myMoney = prompt("Please type How much cash you have");
+}
 }
 else
     alert("Sorry pal. You gotta go to work. :(");
