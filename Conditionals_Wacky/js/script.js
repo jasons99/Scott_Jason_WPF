@@ -17,8 +17,6 @@ if (jasonsTruck === ""){
     jasonsTruck = prompt("We need to know how many people can fit in your truck.");
 }
 
-
-}
 if (jasonsTruck <totalPeople){
     alert("Sorry we need to take another vehicle. There are five of you total.");
     console.log(jasonsTruck)
@@ -34,3 +32,5 @@ if (jasonsTruck <totalPeople){
     }else
         alert("Looks like we need to take separate cars this weekend.")
     console.log("We need to split up in different cars.")
+
+}
