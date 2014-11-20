@@ -2,15 +2,11 @@
  * Created by jasonscott on 11/19/14.
  */
 
-function outptMsg(){
-    console.log("Hello world")
-}
+var total = calcArea(30,20);
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    console.log(area);
-}
+function calcArea(w, h){
+    var area = w * h
+    return area;
 
-calcArea();
+}
+console.log(total)
