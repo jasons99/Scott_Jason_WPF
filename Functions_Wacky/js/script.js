@@ -6,3 +6,7 @@
 alert("Will that MoonBounce fit in your back yard???")
 
 
+var w = prompt("How many feet wide is your yard?");
+
+while(isNaN(w) || w===""){
+
