@@ -38,3 +38,7 @@ if (yard >=800){
     alert("WHOOO HOOO!!! MOUNBOUNCE!.");
     console.log("MOONBOUNCE!");
 
+}
+else
+    alert("The moon bounce is too big for your yard. EPIC FAIL");
+console.log("EPIC FAIL");
