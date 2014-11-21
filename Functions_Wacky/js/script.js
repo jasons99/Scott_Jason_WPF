@@ -24,3 +24,12 @@ while(isNaN(l) || l===""){
 
 var yard = calcArea(w,l);
 
+function calcArea(w, l){
+    var area = w * l
+    return area;
+
+}
+alert("Your yard is" +yard+ "square feet!");
+
+alert("That moon bounce is 800 square feet");
+
