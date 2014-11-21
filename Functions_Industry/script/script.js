@@ -16,3 +16,11 @@ var w = prompt("Now let's enter the width of the logo in pixels");
 
 while(isNaN(w) || w===""){
 
+    w = prompt("Please enter a number!");
+}console.log(w);
+
+var total = calcArea(h,w);
+
+function calcArea(w, h){
+    var area = w * h
+    return area;
