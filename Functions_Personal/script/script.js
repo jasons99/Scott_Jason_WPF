@@ -8,3 +8,5 @@
 alert("Let's pick some lottery numbers for this week.")
 alert("We will determine a range of numbers to choose from and the computer will pick them out for us.")
 
+var min = prompt("Type the first number in the range. any number please.");
+
