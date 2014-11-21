@@ -22,3 +22,5 @@ while(isNaN(l) || l===""){
     l = prompt("Please enter a number!");
 }console.log(l);
 
+var yard = calcArea(w,l);
+
