@@ -19,3 +19,6 @@ var l = prompt("How many feet long is your yard?");
 
 while(isNaN(l) || l===""){
 
+    l = prompt("Please enter a number!");
+}console.log(l);
+
