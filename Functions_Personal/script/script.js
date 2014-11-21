@@ -20,3 +20,13 @@ var max = prompt("Now let's select the maximum number in our range.");
 
 alert("The computer will now give us 20 different numbers for our lottery picks this week.")
 
+while(isNaN(max) || max===""){
+
+    max = prompt("Please enter a number! Numeric value only!");
+}console.log(max);
+
+var result=randomizer(min,max)
+
+
+
+}
