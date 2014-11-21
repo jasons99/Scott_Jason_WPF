@@ -14,3 +14,8 @@ while(isNaN(w) || w===""){
 }console.log(w);
 
 
+var l = prompt("How many feet long is your yard?");
+
+
+while(isNaN(l) || l===""){
+
