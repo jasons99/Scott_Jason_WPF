@@ -11,3 +11,8 @@ while(isNaN(h) || h===""){
 }console.log(h);
 
 
+var w = prompt("Now let's enter the width of the logo in pixels");
+
+
+while(isNaN(w) || w===""){
+
