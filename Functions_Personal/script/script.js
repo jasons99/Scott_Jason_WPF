@@ -28,5 +28,16 @@ while(isNaN(max) || max===""){
 var result=randomizer(min,max)
 
 
+function randomizer(minNumber,maxNumber){
+
+    var randomNumber = Math.round(Math.random()*(maxNumber-minNumber)+ Number(minNumber));
+    return randomNumber;
+    console.log(randomNumber)
+}
+
+for(var y=0; y<20; y++){
+
+    alert(randomizer(min,max));
+
 
 }
