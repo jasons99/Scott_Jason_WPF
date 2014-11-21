@@ -10,3 +10,13 @@ alert("We will determine a range of numbers to choose from and the computer will
 
 var min = prompt("Type the first number in the range. any number please.");
 
+while(isNaN(min) || min===""){
+
+    min = prompt("Please enter a number! Numeric value only!");
+}console.log(min);
+
+
+var max = prompt("Now let's select the maximum number in our range.");
+
+alert("The computer will now give us 20 different numbers for our lottery picks this week.")
+
