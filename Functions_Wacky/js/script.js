@@ -33,3 +33,8 @@ alert("Your yard is" +yard+ "square feet!");
 
 alert("That moon bounce is 800 square feet");
 
+
+if (yard >=800){
+    alert("WHOOO HOOO!!! MOUNBOUNCE!.");
+    console.log("MOONBOUNCE!");
+
